@@ -45,3 +45,7 @@
 </code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> 1. a.concat(b) 
+> 2. StringBuffer 클래스를 이용한 a.append(b) 방법
+>    * String 변수의 변하지 않는 성질(불변성) 때문에 append를 쓰게 되면 String 임시 객체로 생성을 방지해 concat보다 메모리가 절약된다.  

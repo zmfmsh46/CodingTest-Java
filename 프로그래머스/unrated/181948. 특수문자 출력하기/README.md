@@ -25,3 +25,5 @@
 </code></pre></div>
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> escape 문자 \ 를 출력하려면 \\와 같이 앞에 한번 더 써주어야 함.

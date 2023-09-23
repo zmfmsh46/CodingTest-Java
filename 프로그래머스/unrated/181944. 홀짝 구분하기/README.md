@@ -46,3 +46,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> 간단한 조건식일 경우 삼항연산자 이용하기 > n % 2 == 0 ? "even" : "odd")

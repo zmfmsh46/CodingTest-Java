@@ -70,4 +70,5 @@
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
 >
 > str.repeat(n) : str문자열을 n번 반복
-> \n*전에 한번했는데 기억을 못함.. 꼭 기억하기..
+> <hr>
+> *전에 한번했는데 기억을 못함.. 꼭 기억하기..

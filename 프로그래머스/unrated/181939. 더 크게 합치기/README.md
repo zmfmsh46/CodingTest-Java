@@ -75,3 +75,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> Java는 숫자+문자열을 처리할때 숫자를 문자열로 처리한다.

@@ -119,3 +119,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> 처음에 이중for문을 써서 구현, 다시 스택을 이용해서 시간복잡도를 낮추었다.

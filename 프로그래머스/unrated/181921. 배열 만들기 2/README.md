@@ -68,3 +68,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> int num = Integer.parseInt(Integer.toBinaryString(i)) * 5; // 그냥 이진수 문자를 int로 바꿔서 * 5 계산후 넣으면 될걸 너무 돌아갔다..

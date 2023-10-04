@@ -65,3 +65,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> IntStream.range(0, myString.length()).mapToObj(myString::substring).sorted().toArray(String[]::new);

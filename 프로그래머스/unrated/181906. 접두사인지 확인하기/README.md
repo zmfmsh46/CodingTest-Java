@@ -91,3 +91,6 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> my_string.startsWith(is_prefix) : 특정 문자로 시작할 경우 true 반환 /
+> indexOf() 는 특정 문자나 문자열이 앞에서부터 처음 발견되는 인덱스를 반환하며 만약 찾지 못했을 경우 "-1"을 반환

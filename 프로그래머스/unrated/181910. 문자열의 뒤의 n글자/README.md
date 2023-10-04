@@ -68,3 +68,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+>
+> my_string.substring(my_string.length() - n); >> beginning index만 인자로 넣어줄경우 자동으로 그지점에서 끝까지 잘라줌.

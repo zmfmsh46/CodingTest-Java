@@ -53,3 +53,18 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges
+> 이중for문은 되도록 쓰지말자.. 
+>
+> class Solution {
+    public int[] solution(String my_string) {
+        int[] answer = new int[52];
+        for(int i = 0; i < my_string.length(); i++){
+            char c = my_string.charAt(i);
+            if(c >= 'a')
+                answer[c - 'a' + 26]++;
+            else
+                answer[c - 'A']++;
+        }
+        return answer;
+    }
+}

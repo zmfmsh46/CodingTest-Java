@@ -104,3 +104,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+>
+> 단순히 "="을 사용하면 해당 배열의 주소를 공유하게 되므로 이 문제에서는 배열을 복사하기 위해 Arrays.copyOf(arr, arr.length)메소드를 사용한다.

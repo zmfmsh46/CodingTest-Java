@@ -71,3 +71,5 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+>
+> myString.split("x",-1); //regex 뒤에 인덱스 값을 추가할수있다.

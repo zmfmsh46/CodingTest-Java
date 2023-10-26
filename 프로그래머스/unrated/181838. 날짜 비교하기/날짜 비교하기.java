@@ -4,12 +4,12 @@ class Solution {
         return answer;
     }
     
-    private int cal_date(int[] a, int[] b, int count) {
-        while (count < a.length) {
-            if (a[count] > b[count]) {
+    private int cal_date(int[] a, int[] b, int index) {
+        while (index < a.length) {
+            if (a[index] > b[index]) {
                 return 0;
-            } else if (a[count] == b[count]) {
-                return cal_date(a, b, ++count);
+            } else if (a[index] == b[index]) {
+                return cal_date(a, b, ++index);
             } else {
                 return 1;
             }

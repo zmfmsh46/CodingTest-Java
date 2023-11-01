@@ -2,7 +2,7 @@ import java.util.*;
 
 class Solution {
     public int solution(String A, String B) {
-        int answer = 0;
+        /*int answer = 0;
         String buffer;
 
         Deque<String> deque = new LinkedList<>();
@@ -19,7 +19,10 @@ class Solution {
                 break;
             }
         }
+
+        return answer;*/
         
-        return answer;
+        String tempB = B.repeat(3);
+        return tempB.indexOf(A);
     }
 }

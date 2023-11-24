@@ -3,7 +3,7 @@ import java.util.*;
 class Solution {
     public int[] solution(int n) {
         int[] answer = {};
-        ArrayList<Integer> result = new ArrayList<>();
+        LinkedHashSet<Integer> result = new LinkedHashSet<>();
 
         for (int i = 2; i <= Math.sqrt(n); i++) {
             while (n % i == 0) {
@@ -16,7 +16,7 @@ class Solution {
             result.add(n);
         }
 
-        answer = result.stream().distinct().mapToInt(Integer::intValue).toArray();
+        answer = result.stream().mapToInt(Integer::intValue).toArray();
         return answer;
     }
 }

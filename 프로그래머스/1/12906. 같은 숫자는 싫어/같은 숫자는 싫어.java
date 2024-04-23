@@ -5,25 +5,15 @@ public class Solution {
         int[] answer = {};
         int buffer;
 
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < arr.length; i++) {
-            queue.add(arr[i]);
-        }
-        queue.add(-1);
+        Stack<Integer> stack = new Stack<>();
 
-        ArrayList<Integer> arrayList = new ArrayList<>();
-        while (!queue.isEmpty()) {
-            buffer = queue.poll();
-            if (queue.isEmpty()) {
-                break;
-            } else {
-                if (buffer != queue.peek()) {
-                    arrayList.add(buffer);
-                }
+        for (int num : arr) {
+            if (stack.isEmpty() || num != stack.peek()) {
+                stack.push(num);
             }
         }
 
-        answer = arrayList.stream().mapToInt(Integer::intValue).toArray();
+        answer = stack.stream().mapToInt(Integer::intValue).toArray();
 
         return answer;
     }
